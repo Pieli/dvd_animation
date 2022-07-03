@@ -8,12 +8,12 @@ Animation like the classic tv screensaver.
 
 Debian based systems:
 ```
-$ sudo apt install libsdl2-dev
+$ sudo apt install libsdl2-dev libsdl2-image-dev
 ```
 
 Arch based systems:
 ```
-$ sudo pacman -S sdl2
+$ sudo pacman -S sdl2 sdl2_image
 ```
 
 
@@ -31,7 +31,7 @@ Change directory and compile:
 $ cd dvd_animation && make
 ```
 
-# Run animation 
+# Run animation
 change permission:
 ```
 $ chmod +x dvd
@@ -40,6 +40,3 @@ run:
 ```
 $ ./dvd
 ```
-
-
-

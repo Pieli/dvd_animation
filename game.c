@@ -20,7 +20,7 @@ gameInit()
                                  SDL_WINDOWPOS_UNDEFINED,
                                  game.wind_w,
                                  game.wind_h,
-                                 SDL_WINDOW_OPENGL);
+                                 SDL_WINDOW_OPENGL | SDL_WINDOW_RESIZABLE);
 
   game.renderer = SDL_CreateRenderer(
     game.window, -1, SDL_RENDERER_PRESENTVSYNC | SDL_RENDERER_ACCELERATED);
@@ -28,7 +28,8 @@ gameInit()
 
 void
 gameUpdate()
-{}
+{
+}
 
 void
 gameRender()
